@@ -1,0 +1,11 @@
+<h2> counted </h2>
+<h3>Text : {{ fulltext }} </h3>
+<h3> Total Words :  {{ total_word }} </h3>
+<h3>
+
+    {% for word, value in cnt %}
+        {{ word }} = {{ value }}
+        <br>
+    {% endfor %}
+
+</h3>
